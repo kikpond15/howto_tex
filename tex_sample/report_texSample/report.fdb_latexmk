@@ -1,0 +1,42 @@
+# Fdb version 3
+["bibtex report"] 1574054889 "report.aux" "report.bbl" "report" 1574054890
+  "junsrt.bst" 0 -1 0 ""
+  "report.aux" 1574054889 109 f4ff5409e09d281df022e36a3dcb005b ""
+  "report.bcf" 0 -1 0 ""
+  "test.bib" 0 -1 0 ""
+  (generated)
+  "report.bbl"
+["dvipdf"] 1574054889 "report.dvi" "report.pdf" "report" 1574054890
+  "report.dvi" 1574054889 708 f2f4eefd7c12527658a70f534c5b460a "latex"
+  (generated)
+  "report.pdf"
+["latex"] 1574054889 "report.tex" "report.dvi" "report" 1574054890
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm" 1274206740 1200 05cd01c8b39c63a2f8185f7e6e5b2300 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/min10.tfm" 1274206740 1200 6411f221f4825dfcb18a17ab21ae7081 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/tgoth10.tfm" 1274206740 856 7404843a5f798859944d7973a47821d5 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/tmin10.tfm" 1274206740 856 39c171483fe1bb7d0e1368980c0c205b ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def" 1428932888 5175 cf8f4aa566803da8aee7793cb63b3e65 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty" 1428932888 14285 20d80486c4ae98139889d8789596c967 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty" 1428932888 8125 557ab9f1bfa80d369fb45a914aa8a3b4 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty" 1428932888 2594 d18d5e19aa8239cf867fa670c556d2e9 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty" 1428932888 3439 44bd4a1da7f27787173f2e99116b0a7f ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg" 1278958963 3563 d35e897cae3b8c6848f6677b73370b54 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls" 1274206740 25507 0e6187042be739768097a38c29341b37 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize12.clo" 1274206740 9598 fa730555eee77484e4f33073895956b9 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/eptex/platex.fmt" 1448100037 3999851 fce3bc7aca5af807c750aeeacdaa586e ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "report.aux" 1574054889 109 f4ff5409e09d281df022e36a3dcb005b ""
+  "report.bbl" 0 -1 0 "bibtex report"
+  "report.tex" 1501410605 431 30293c50a83497770347a5cfb001aa55 ""
+  (generated)
+  "report.dvi"
+  "report.log"
+  "report.aux"

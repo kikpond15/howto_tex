@@ -1,0 +1,14 @@
+\newcommand{\noopsort}[1]{}\newcommand{\printfirst}[2]{#1}\newcommand{\singleletter}[1]{#1}\newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{1}
+
+\bibitem{ec_kui}
+菊池康太, 遠藤勝也, 小野隆之, 尼岡利崇.
+\newblock Kui:影ユーザーインタフェース.
+\newblock  エンタテインメントコンピューティングシンポジウム2016論文集,
+  第2016巻, pp. 259--262, 2016.
+
+\bibitem{globus_toolkit}
+{Welcome to the Globus Toolkit}.
+\newblock \url{http://www.globus.org/toolkit/}.
+
+\end{thebibliography}
