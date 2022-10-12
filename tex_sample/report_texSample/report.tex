@@ -9,18 +9,150 @@
 \end{titlepage}
 
 
-
 \begin{document}
 \maketitle
-%\thispagestyle{empty}
+
+%-------------------ここから本文----------------------------------------
+\section{はじめに}
+\label{sec:introduction}
+本文は\textbackslash maketitleの下から描き始める．
+文字の大きなど基本的にTex側の設定で自動で調整してくれるので，気にせず書くと良い．
+
+論文では句読点の代わりにカンマ(，)とピリオド(．)を使用するケースが多い．
+どちらを使用しても大丈夫であるが，句読点とカンマ，ピリオドが混在するのはダメ．
+どちらかに統一して書くと良い．
+ちなみに日本語の論文であれば，カンマとピリオドは全角を使用する．
 
 
 
-\section{目的}
+\subsection{章と節の設定}
+章立てを行うには\textbackslash section\{章タイトル\}を使用する．
+1.1や1.2など小節で分けたい時は
+\textbackslash subsection\{節タイトル\}
+を使用する．ちなみにsubsubsectionも設定すれば使えたりする．
 
 
 
-\bibliography{test} % BibTeX ファイル (.bib) を記述
+
+\section{よく使うTexの書き方}
+\subsection{図の挿入}
+図の挿入には\textbackslash begin\{figure\}と
+\textbackslash end\{figure\}を使う．
+\textbackslash includegraphics[オプション]\{画像名\}で挿入したい画像を指定する．
+画像をimgフォルダなどにまとめている場合は，img/画像名.pngと指定する．
+オプションでは，画像サイズをwidth＝30mm のように設定することができる．
+図の下に表示される図のキャプションは\textbackslash caption\{画像名\}で指定する．
+実際に図\ref{fig:sample}のように画像を挿入できる．
+図Nのように図番号の指定は\textbackslash ref\{ラベル名\}のようにラベル名を指定することで．
+自動で番号を割り振ってくれる．とても便利である．図の位置はTex側でちょうど良いスペースに配置してくれるので，
+任意の位置に自由に配置することはできないが，
+\textbackslash begin\{figure\}[h]のようにオプションを指定することで，
+ある程度は位置を調整することができる．オプションには【h】(here),【t】(top),
+【b】(bottom),【p】(独立したページ) などがある．基本はhで良い．
+
+使用できる画像の拡張子には，png，jpg，epsなどがある．
+epsはファイルサイズが大きいが拡大しても解像度が落ちないのでオススメである．
+
+%============   図の挿入の書き方　=================
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=30mm]{img/kikpond.eps}
+	 \end{center}
+	\caption{サンプル画像}
+	\label{fig:sample}
+\end{figure}
+%==============================================
+
+また，図を2つ並べて表示したいときは，\textbackslash minipageを使う.
+
+\begin{figure}[htbp]
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, width=30mm]{img/kikpond.eps}
+    \caption{サンプル画像}
+  \end{minipage}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, width=30mm]{img/kikpond.eps}
+    \caption{サンプル画像}
+  \end{minipage}
+\end{figure}
+
+
+
+\subsection{表の挿入}
+線無しの表には\ref{tab:sample01}を，線ありの表には\ref{tab:sample02}を
+参照すると良い.
+
+%============   表の挿入の書き方(線なし)　=================
+\begin{table}[htb]
+	\centering
+	 \caption{スペック比較:罫線なし}
+	  \begin{tabular}{lcrc}
+		機種 & ディスプレイ & 値段 & CPUコア \\
+		iphone12 pro & 6.1" & 106,800円 & A14 Bionic \\
+		iphone12 & 6.1" & 85,800円 & A14 Bionic \\
+		iphone12 mini & 5.4" & 74,800円 & A14 Bionic
+	  \end{tabular}
+	  \label{tab:sample01}
+	\end{table}
+%=====================================================
+
+
+
+%============   表の挿入の書き方(線あり)　=================
+	\begin{table}[htb]
+		\centering
+		  \caption{スペック比較:罫線あり}
+		  \begin{tabular}{|l||c|r|c|}  \hline
+			機種 & ディスプレイ & 値段 & CPUコア \\ \hline \hline
+			iphone12 pro & 6.1" & 106,800円 & A14 Bionic \\ \hline
+			iphone12 & 6.1" & 85,800円 & A14 Bionic \\ \hline
+			iphone12 mini & 5.4" & 74,800円 & A14 Bionic \\ \hline
+		  \end{tabular}
+		  \label{tab:sample02}
+		\end{table}
+%=====================================================
+
+
+\subsection{箇条書き}
+箇条書きする場合は下のようにする．
+\begin{itemize}
+	\item A
+	\item B
+	\begin{itemize}
+		\item a
+		\item b    
+	\end{itemize}
+	\item C	
+\end{itemize}
+
+\begin{enumerate}
+	\item Aである．
+	\item Bである．
+	\item Cである．
+\end{enumerate}
+
+
+
+\section{参考文献の書き方}
+参考文献の引用方法は\textbackslash cite\{文献名\}
+のように指定する．すると，
+\cite{ec_kui}や\cite{globus_toolkit}のように連番で
+参考文献を表示することができる．
+
+参考文献は.bibファイルにまとめて管理すると良い．
+.texファイルに直に書くことも出来る．
+
+\subsection{bibTexの書き方}
+参考文献をbibtexに書く際の決まりがある．
+論文を引用する場合は＠articleを使用し，
+必要項目を記入する(authorやtitleなど).
+test\_bibtex.bibの書き方を参考にすると良い．
+
+
+
+\bibliography{report} % BibTeX ファイル (.bib) を記述
 \bibliographystyle{junsrt} % 番号を掲載順にソートする．
 
 \end{document}

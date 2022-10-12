@@ -1,0 +1,49 @@
+This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: out/report.aux
+The style file: junsrt.bst
+Database file #1: report.bib
+Warning--can't use both volume and number fields in ec_kui
+You've used 2 entries,
+            2270 wiz_defined-function locations,
+            549 strings with 4416 characters,
+and the built_in function-call counts, 606 in all, are:
+= -- 42
+> -- 14
+< -- 1
++ -- 6
+- -- 4
+* -- 26
+:= -- 69
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 38
+empty$ -- 69
+format.name$ -- 8
+if$ -- 153
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 1
+pop$ -- 20
+preamble$ -- 2
+purify$ -- 0
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 28
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 3
+width$ -- 3
+write$ -- 22
+is.kanji.str$ -- 20
+(There was 1 warning)
