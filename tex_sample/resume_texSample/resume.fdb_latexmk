@@ -1,17 +1,19 @@
 # Fdb version 3
-["bibtex test"] 1640242479 "test.aux" "test.bbl" "test" 1640252508
+["bibtex resume"] 1671125261 "resume.aux" "resume.bbl" "resume" 1671125302
   "junsrt.bst" 0 -1 0 ""
-  "test.aux" 1640242495 1787 6a3f7c05d39dff39a801434cec6d91ad "latex"
-  "test_bibtex.bib" 1640175732 1122 b736a9e9d359b7fb4824c013ca46fb56 ""
+  "resume.aux" 1671125263 1789 83183eeeb79fd1e8a0c530e17e2db5d2 "latex"
+  "resume_bibtex.bib" 1665572674 1122 b736a9e9d359b7fb4824c013ca46fb56 ""
   (generated)
-  "test.bbl"
-  "test.blg"
-["dvipdf"] 1640242496 "test.dvi" "test.pdf" "test" 1640252508
-  "test.dvi" 1640242495 8436 ccf15835fc2988c80765f4eb01367cac "latex"
+  "resume.bbl"
+  "resume.blg"
+["dvipdf"] 1671125263 "resume.dvi" "resume.pdf" "resume" 1671125302
+  "resume.dvi" 1671125263 8436 0298303480b92f15322bbe45ea410a7a "latex"
+  "test.dvi" 0 -1 0 ""
   (generated)
+  "resume.pdf"
   "test.pdf"
-["latex"] 1640242495 "/Users/amalab/Desktop/kikpond/tex_howto/tex_sample/resume_texSample/test.tex" "test.dvi" "test" 1640252508
-  "/Users/amalab/Desktop/kikpond/tex_howto/tex_sample/resume_texSample/test.tex" 1640243281 6322 9ab31231ff2991d5e292618c3a478ab0 ""
+["latex"] 1671125262 "/Users/amalab/Documents/howto_tex/tex_sample/resume_texSample/resume.tex" "resume.dvi" "resume" 1671125302
+  "/Users/amalab/Documents/howto_tex/tex_sample/resume_texSample/resume.tex" 1671125302 6323 bd08aa1cbb81a405c6cba9a54012e4c1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -49,10 +51,10 @@
   "/usr/local/texlive/2021/texmf-var/web2c/eptex/platex.fmt" 1628584081 2717279 42b5ef77e3a83218c259f686830f1bed ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "img/kikpond.eps" 1500379414 2907140 49a42f887f48801063dfbf7ce3d9fa94 ""
-  "test.aux" 1640242495 1787 6a3f7c05d39dff39a801434cec6d91ad "latex"
-  "test.bbl" 1640242479 540 e8bc20512809924b1b33eecf79e55bd7 "bibtex test"
-  "test.tex" 1640243281 6322 9ab31231ff2991d5e292618c3a478ab0 ""
+  "resume.aux" 1671125263 1789 83183eeeb79fd1e8a0c530e17e2db5d2 "latex"
+  "resume.bbl" 1671125261 540 e8bc20512809924b1b33eecf79e55bd7 "bibtex resume"
+  "resume.tex" 1671125302 6323 bd08aa1cbb81a405c6cba9a54012e4c1 ""
   (generated)
-  "test.dvi"
-  "test.log"
-  "test.aux"
+  "resume.dvi"
+  "resume.log"
+  "resume.aux"

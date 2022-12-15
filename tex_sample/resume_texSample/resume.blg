@@ -1,12 +1,12 @@
-This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2021)
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: test.aux
+The top-level auxiliary file: resume.aux
 The style file: junsrt.bst
-Database file #1: test_bibtex.bib
+Database file #1: resume_bibtex.bib
 Warning--can't use both volume and number fields in ec_kui
 You've used 2 entries,
             2270 wiz_defined-function locations,
-            549 strings with 4409 characters,
+            549 strings with 4415 characters,
 and the built_in function-call counts, 606 in all, are:
 = -- 42
 > -- 14
